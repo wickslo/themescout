@@ -1,0 +1,18 @@
+{
+	"manifest_version": 3,
+   
+	"name": "HS Helper",
+	"version": "0.1.0",
+	"description": "Modifies Help Scout themes",
+   
+	"content_scripts": [{
+	  "js": ["themes/oxygen/main.js"],
+	  "matches": ["https://secure.helpscout.net/*"]
+	}],
+	"permissions":["tabs","nativeMessaging"],
+	"web_accessible_resources": [{
+		"resources":["themes/oxygen/base.css","themes/oxygen/colors.css", "themes/oxygen/nav.css","themes/oxygen/chart.css"],
+		"matches":["<all_urls>"]
+	}]
+   
+  }

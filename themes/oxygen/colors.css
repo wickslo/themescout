@@ -1,0 +1,11 @@
+:root {
+	--lightest: rgb(164, 164, 164);
+	--darkest: #000;
+	--primary: #3a209e;
+	--secondary: rgb(123,102,255);
+	--shade: rgb(64,64,64);
+	--accent: #cec5f5;
+	--alert: #ff675c;
+	--warning: #fab347;
+	--white: #fff;
+}

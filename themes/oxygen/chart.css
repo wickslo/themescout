@@ -1,0 +1,8 @@
+.pie-avg>.metric {
+	color:var(--lightest);
+}
+
+#redactor_tabs>a.redactor_tabs_act, .nav-tabs>li.active>a {
+	color:var(--white);
+	border-bottom: 4px solid var(--secondary);
+}

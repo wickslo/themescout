@@ -1,0 +1,68 @@
+#header {
+	background:var(--primary);
+}
+
+.nav-main>li>a, .nav-secondary>li>a {
+	color:var(--lightest);
+}
+
+.nav-main>li>a.active, .nav-main>li>a:focus, .nav-main>li>a:hover, .nav-secondary>li>a.active, .nav-secondary>li>a:focus, .nav-secondary>li>a:hover {
+    color: var(--white);
+}
+
+.nav-main .dropdown-toggle.active>.caret, .nav-main .dropdown-toggle:focus>.caret, .nav-main .dropdown-toggle:hover>.caret, .nav-secondary .dropdown-toggle.active>.caret, .nav-secondary .dropdown-toggle:focus>.caret, .nav-secondary .dropdown-toggle:hover>.caret {
+	border-right-color: var(--white);
+	border-top-color: var(--white);
+}
+
+.nav-main .dropdown-toggle>.caret, .nav-secondary .dropdown-toggle>.caret {
+	border-right-color: var(--lightest);
+	border-top-color: var(--lightest);
+}
+
+.search-autocomplete .search-trigger .icon-search {
+	color:var(--lightest);
+}
+
+.chzn-drop, .dropdown-menu, .redactor_dropdown {
+	background-color:var(--darkest);
+	border: 1px solid var(--shade);
+}
+
+.chzn-drop .chzn-results>.active-result, .dropdown-menu li>a:not(.search-choice-close):not(.new-docs-collection-link), .dropdown-menu li>button.is-style-link:not(.search-choice-close), .dropdown-menu.textboxlist-autocomplete>ul>li, .redactor_dropdown>a {
+	color:var(--lightest);
+}
+
+.chzn-drop .chzn-results>.highlighted, .dropdown-menu li:hover>a, .dropdown-menu li:hover>button.is-style-link, .dropdown-menu li>a.hover, .dropdown-menu li>a:focus, .dropdown-menu li>a:hover, .dropdown-menu li>button.is-style-link.hover, .dropdown-menu li>button.is-style-link:focus, .dropdown-menu li>button.is-style-link:hover, .dropdown-menu.textboxlist-autocomplete>ul>li.textboxlist-autocomplete-result-focus, .dropdown-menu.textboxlist-autocomplete>ul>li:focus, .dropdown-menu.textboxlist-autocomplete>ul>li:hover, .dropdown-submenu:focus>a, .dropdown-submenu:focus>button.is-style-link, .dropdown-submenu:hover>a, .dropdown-submenu:hover>button.is-style-link, .redactor_dropdown>a:focus, .redactor_dropdown>a:hover {
+	background:var(--shade);
+}
+
+.c-notification-history, .c-notification-history__header {
+	background-color:var(--shade);
+}
+
+.c-notification-list__header {
+	background-color:var(--primary);
+	color:var(--white);
+}
+
+.c-notification-message.is-unread {
+	background-color: var(--accent);
+	box-shadow: 3px 0 0 var(--primary) inset;
+}
+
+.c-notification-message__header {
+	color:var(--darkest);
+}
+
+.t-tx-charcoal-200 {
+	color:var(--darkest)!important;
+}
+
+.c-notification-message.is-read {
+	background-color:var(--lightest);
+}
+
+.btn-link, .redactor_btn_modal_close {
+	color: var(--accent);
+}
