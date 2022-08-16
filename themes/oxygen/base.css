@@ -200,3 +200,31 @@ background-color:var(--darkest);
 .apps-history .inner, .sidebar-app .muted, .sidebar-app>.content [class*=' icon-'], .sidebar-app>.content [class^=icon-] {
 	color:var(--lightest);
 }
+
+#redactor_modal, .modal, .modal-header {
+	background:var(--shade);
+}
+
+.ie input[type=file], input, input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], textarea {
+	color:var(--lightest);
+}
+
+.redactor, .redactor blockquote, .redactor div, .redactor dl, .redactor h1, .redactor h2, .redactor h3, .redactor h4, .redactor h5, .redactor h6, .redactor ol, .redactor p, .redactor pre, .redactor table, .redactor ul, .redactor:focus, .redactor_editor, .redactor_editor blockquote, .redactor_editor div, .redactor_editor dl, .redactor_editor h1, .redactor_editor h2, .redactor_editor h3, .redactor_editor h4, .redactor_editor h5, .redactor_editor h6, .redactor_editor ol, .redactor_editor p, .redactor_editor pre, .redactor_editor table, .redactor_editor ul, .redactor_editor:focus {
+	color:var(--lightest);
+}
+
+code, pre {
+	color:var(--lightest);
+}
+
+#redactor_modal header h3, #redactor_modal header h4, #redactor_modal header h5, .modal-header h3, .modal-header h4, .modal-header h5 {
+	color:var(--white);
+}
+
+.nav-stacked .mb-folder-heading {
+	color:var(--white);
+}
+
+.apps-history__history>.content li.open .icon, .apps-history__history>.content li.open span {
+	color:var(--warning);
+}
