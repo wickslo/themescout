@@ -8,6 +8,9 @@ async function applyTheme() {
 
 	var item = await chrome.storage.sync.get(['theme']);
 
+	if (item.theme == 'none') {
+		return;
+	}
 	const list = ['colors', 'base', 'nav', 'chart'];
 
 	for (const file of list) {
