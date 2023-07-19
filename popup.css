@@ -1,0 +1,40 @@
+html {
+    border-radius: 0.25rem;
+}
+
+body {
+    padding: 0.5rem;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    color: white;
+    background-color: #2a2a2a;
+}
+
+#scout-theme {
+    margin-bottom: 1rem;
+    width: 100%
+}
+
+#theme_select {
+    width: 80%;
+    padding: 0.25rem;
+}
+
+#status {
+    background-color: black;
+    color: white;
+    margin-bottom: 1rem;
+    width: 100%
+}
+
+#save {
+    width: 80%;
+    padding: 0.25rem;
+    background-color: lightskyblue;
+    border-radius: 0.25rem;
+    margin-left: auto;
+    margin-right: auto;
+}

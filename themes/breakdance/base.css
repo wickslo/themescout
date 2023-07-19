@@ -203,7 +203,7 @@ textarea {
 
 #subjectLine button[type=submit],
 .btn-success {
-	background-color: var(--primary);
+	background-color: var(--accent);
 	border: 1px solid var(--primary);
 }
 

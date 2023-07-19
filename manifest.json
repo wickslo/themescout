@@ -1,8 +1,8 @@
 {
 	"manifest_version": 3,
-	"name": "HS Helper",
+	"name": "ThemeScout",
 	"version": "0.1.2",
-	"description": "Modifies Help Scout themes",
+	"description": "Custom Themes for Help Scout",
 	"content_scripts": [
 		{
 			"js": [
@@ -14,7 +14,7 @@
 		}
 	],
 	"action": {
-		"default_title": "Drink Water Event",
+		"default_title": "Theme Selection",
 		"default_popup": "popup.html"
 	},
 	"permissions": [
