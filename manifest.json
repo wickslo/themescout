@@ -1,18 +1,35 @@
 {
 	"manifest_version": 3,
-   
 	"name": "HS Helper",
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"description": "Modifies Help Scout themes",
-   
-	"content_scripts": [{
-	  "js": ["themes/oxygen/main.js"],
-	  "matches": ["https://secure.helpscout.net/*"]
-	}],
-	"permissions":["tabs","nativeMessaging"],
-	"web_accessible_resources": [{
-		"resources":["themes/oxygen/base.css","themes/oxygen/colors.css", "themes/oxygen/nav.css","themes/oxygen/chart.css"],
-		"matches":["<all_urls>"]
-	}]
-   
-  }
+	"content_scripts": [
+		{
+			"js": [
+				"main.js"
+			],
+			"matches": [
+				"https://secure.helpscout.net/*"
+			]
+		}
+	],
+	"action": {
+		"default_title": "Drink Water Event",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"tabs",
+		"nativeMessaging",
+		"storage"
+	],
+	"web_accessible_resources": [
+		{
+			"resources": [
+				"themes/*.css"
+			],
+			"matches": [
+				"<all_urls>"
+			]
+		}
+	]
+}

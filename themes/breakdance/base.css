@@ -1,0 +1,357 @@
+body,
+body.one-col,
+body.two-col,
+body.three-cols {
+	background: var(--darkest);
+	color: var(--lightest);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--lightest);
+}
+
+.page-heading__text {
+	color: var(--lightest);
+}
+
+table {
+	background-color: var(--darkest);
+	color: var(--lightest);
+}
+
+#tblTickets td a,
+#tblTickets td p,
+#tblTickets .preview {
+	color: var(--lightest);
+}
+
+.c-app-layout__col {
+	background: var(--shade);
+}
+
+.sidebar-heading {
+	color: var(--white);
+}
+
+.nav-stacked .active a,
+.nav-stacked .active a:hover {
+	color: var(--black);
+	background: var(--darkest);
+}
+
+.nav-stacked>li>a,
+.nav-stacked i {
+	color: var(--lightest);
+}
+
+.nav-stacked .active a i,
+.nav-stacked .active a:hover i {
+	color: var(--secondary);
+}
+
+.nav-stacked .badge,
+.nav-stacked .active .badge {
+	color: var(--darkest);
+	background: var(--secondary);
+}
+
+#tblTickets .previewFade {
+	background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(var(--darkest)));
+	background: -o-linear-gradient(left, rgba(255, 255, 255, 0), var(--darkest));
+	background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--darkest));
+}
+
+#tblTickets .threads {
+	background: var(--secondary);
+	color: var(--darkest);
+}
+
+#tblTickets th a {
+	color: var(--white);
+}
+
+#tblTickets th a:hover {
+	color: var(--secondary);
+}
+
+#tblFoot td,
+#tblFoot td strong {
+	color: var(--white);
+}
+
+
+#dash-cards .card {
+	background: var(--shade);
+}
+
+.t-tx-blue-800 {
+	color: var(--white) !important;
+}
+
+.t-tx-charcoal-400,
+.t-tx-charcoal-600 {
+	color: var(--lightest) !important;
+}
+
+#dash-cards .card .c-list .active .folder {
+	color: var(--lightest);
+}
+
+#sidebarProfile .header {
+	background: var(--shade);
+}
+
+.c-app-layout__content {
+	background: var(--darkest);
+}
+
+.c-convo-toolbar,
+.convo-actions {
+	background: var(--shade);
+}
+
+.convo-actions>li a>i,
+.pager i {
+	color: var(--accent);
+}
+
+.convo-actions>li a:hover i,
+.pager a:hover,
+.pager a:hover i {
+	color: var(--secondary);
+}
+
+.convo-actions>li.dropdown.open>.dropdown-toggle i {
+	color: var(--white);
+}
+
+#tktInfo h1,
+#tktSubject>#subject,
+#tkHeader p>strong,
+#tktInfo p>strong,
+#tkHeader p,
+#tktInfo p,
+#tkContent article .threadHeader h4 strong,
+#tkContent article#previousConvo article .threadHeader h4 strong {
+	color: var(--white);
+}
+
+#tkContent article .threadHeader h4,
+#tkContent article#previousConvo article .threadHeader h4 {
+	color: var(--lightest);
+}
+
+#tkContent>article .threadHeader time>a {
+	color: var(--lightest);
+}
+
+#tkContent>article .messageBodyWrap .messageBody {
+	color: var(--lightest);
+}
+
+#tkContent article.singleLine {
+	background: var(--accent);
+}
+
+#tkContent article.singleLine .threadTitle a {
+	color: var(--darkest);
+}
+
+#tkContent article.singleLine .threadTitle h4,
+#tkContent article.singleLine .meta>time>a {
+	color: var(--darkest);
+}
+
+.ie input[type=file],
+input,
+input[type=color],
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+textarea {
+	background-color: var(--darkest);
+}
+
+.redactor,
+.redactor:focus,
+.redactor_editor,
+.redactor_editor:focus {
+	background: var(--darkest);
+	color: var(--lightest);
+}
+
+#editorBar,
+.redactor_toolbar,
+.hs-wysiwyg #btmBtns {
+	background: var(--shade);
+}
+
+#subjectLine button[type=submit],
+.btn-success {
+	background-color: var(--primary);
+	border: 1px solid var(--primary);
+}
+
+#subjectLine .btn-group.open button.dropdown-toggle[type=submit],
+.btn-group.open #subjectLine button.dropdown-toggle[type=submit],
+.btn-group.open .btn-success.dropdown-toggle {
+	background-color: var(--secondary);
+}
+
+#subjectLine button.active[type=submit],
+#subjectLine button.disabled[type=submit],
+#subjectLine button:active[type=submit],
+#subjectLine button:focus[type=submit],
+#subjectLine button:hover[type=submit],
+#subjectLine button[disabled][type=submit],
+.btn-success.active,
+.btn-success.disabled,
+.btn-success:active,
+.btn-success:focus,
+.btn-success:hover,
+.btn-success[disabled] {
+	background-color: var(--secondary);
+}
+
+#sidebarProfile .c-profile__card,
+.apps-history .sidebar-app.open {
+	background: var(--darkest);
+}
+
+#sidebarProfile .c-profile__name,
+.apps-history h1 {
+	color: var(--white);
+}
+
+#sidebarProfile .c-profile__card a:not(.detail):not(.show-more):not(.custom-property-url) {
+	color: var(--lightest);
+}
+
+.apps-history__history>.content .prev-convos-list a,
+.apps-history__history>.content .icon {
+	color: var(--lightest);
+}
+
+.sidebar-app>.content a {
+	color: var(--secondary);
+}
+
+.c-profile__details:nth-of-type(1) a {
+	color: var(--secondary) !important;
+}
+
+.apps-history__history>.content .prev-convos-list a:hover span,
+.apps-history__history>.content .prev-convos-list a:hover .icon {
+	color: var(--secondary);
+}
+
+.apps-history #properties ul.c-sb-list.c-sb-list--two-line li {
+	color: var(--lightest);
+	background: var(--shade);
+}
+
+.apps-history .inner,
+.sidebar-app .muted,
+.sidebar-app>.content [class*=' icon-'],
+.sidebar-app>.content [class^=icon-] {
+	color: var(--lightest);
+}
+
+#redactor_modal,
+.modal,
+.modal-header {
+	background: var(--shade);
+}
+
+.ie input[type=file],
+input,
+input[type=color],
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+textarea {
+	color: var(--lightest);
+}
+
+.redactor,
+.redactor blockquote,
+.redactor div,
+.redactor dl,
+.redactor h1,
+.redactor h2,
+.redactor h3,
+.redactor h4,
+.redactor h5,
+.redactor h6,
+.redactor ol,
+.redactor p,
+.redactor pre,
+.redactor table,
+.redactor ul,
+.redactor:focus,
+.redactor_editor,
+.redactor_editor blockquote,
+.redactor_editor div,
+.redactor_editor dl,
+.redactor_editor h1,
+.redactor_editor h2,
+.redactor_editor h3,
+.redactor_editor h4,
+.redactor_editor h5,
+.redactor_editor h6,
+.redactor_editor ol,
+.redactor_editor p,
+.redactor_editor pre,
+.redactor_editor table,
+.redactor_editor ul,
+.redactor_editor:focus {
+	color: var(--lightest);
+}
+
+code,
+pre {
+	color: var(--lightest);
+}
+
+#redactor_modal header h3,
+#redactor_modal header h4,
+#redactor_modal header h5,
+.modal-header h3,
+.modal-header h4,
+.modal-header h5 {
+	color: var(--white);
+}
+
+.nav-stacked .mb-folder-heading {
+	color: var(--white);
+}
+
+.apps-history__history>.content li.open .icon,
+.apps-history__history>.content li.open span {
+	color: var(--warning);
+}
