@@ -13,6 +13,12 @@
 			]
 		}
 	],
+	"icons": {
+		"16": "/assets/themescout16.png",
+		"32": "/assets/themescout32.png",
+		"48": "/assets/themescout48.png",
+		"128": "/assets/themescout128.png"
+	},
 	"action": {
 		"default_title": "Theme Selection",
 		"default_popup": "popup.html"
