@@ -355,3 +355,7 @@ pre {
 .apps-history__history>.content li.open span {
 	color: var(--warning);
 }
+
+.search-modal__visible>.o-container {
+	background-color: var(--shade);
+}
