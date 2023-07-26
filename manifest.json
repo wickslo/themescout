@@ -24,7 +24,6 @@
 		"default_popup": "popup.html"
 	},
 	"permissions": [
-		"nativeMessaging",
 		"storage"
 	],
 	"web_accessible_resources": [
